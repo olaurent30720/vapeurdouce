@@ -1,0 +1,52 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+@font-face {
+  src: url(stayhome/stayhome.woff);
+  font-family: stayhome;
+}
+body{
+  display: flex;
+  font-size: 1.5em;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color:#ffd369;
+  font-family: stayhome;
+  }
+
+h1{
+  margin-top: 0.1em;
+  margin-bottom: 0.5em;
+  height:1.5em;
+  line-height: 1.5em;
+  flex: 0 0 90%;
+  border-radius: 3px;
+  text-align: center;
+  color:#ffd369;
+  background-color:#222831;
+ }
+.rechercher{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items:center;
+  background-color:#393e46;
+  border-radius: 10px;
+  width: 80vw;
+  height: 20vh;
+  margin-bottom: 2em;
+}
+input{
+  height: 5vh;
+  
+  }
+
+label{
+  color: #ffd369;
+  font-size: 1em;
+  height: 10vh;
+  font-weight: bold;
+  
+}
